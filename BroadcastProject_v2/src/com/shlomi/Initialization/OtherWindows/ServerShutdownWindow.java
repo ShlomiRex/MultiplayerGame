@@ -27,6 +27,7 @@ public class ServerShutdownWindow {
 	 * Create the application.
 	 */
 	public ServerShutdownWindow(String broadcastServerInfo, String receiverServerInfo, String senderServerInfo) {
+		int a = 0;
 		try {
 			UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
 		} catch (Exception e) {}
